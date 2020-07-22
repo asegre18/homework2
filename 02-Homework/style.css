@@ -1,0 +1,32 @@
+.navbar {
+    background-color: aqua;
+}
+
+body {
+    background-color: rgb(167, 176, 177);
+    
+}
+
+.line
+{
+    display:inline-block;
+    border-bottom:2px #a8a7a5 solid;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.container .form-header {
+    font-size: 200%;
+    color: rgb(0, 119, 255);
+}
+
