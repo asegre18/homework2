@@ -3,8 +3,14 @@
 }
 
 body {
-    background-color: rgb(167, 176, 177);
+    background-color: rgb(234, 236, 236);
     
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: white;
+    font-size: 200%;
 }
 
 .line
@@ -14,6 +20,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width:100%;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -25,8 +32,28 @@ body {
     align-items: center;
 }
 
-.container .form-header {
+.form-header {
     font-size: 200%;
     color: rgb(0, 119, 255);
 }
+.navbar .btn {
+    color: white;
+}
 
+.navbar-brand {
+    font-size: x-large;
+}
+
+.card-title {
+    background-color: #7dd4ee; 
+    text-align: center; 
+    color: white;
+}
+
+.card-body {
+    background-color: #7dd4ee; 
+}
+
+.card img {
+    height: 300px;
+}
